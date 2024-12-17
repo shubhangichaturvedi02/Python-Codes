@@ -56,4 +56,3 @@ def min_jump(arr:[int]):
 a = [1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9]
 
 print("Minimum no. of jumps required is ", min_jump(a))
-
