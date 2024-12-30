@@ -35,3 +35,15 @@ def inorder_traversal(root_node):
    
 print("Inorder Traversal")
 inorder_traversal(new_tree)
+
+def post_order_traversal(root_node):
+   if not root_node:
+      return
+   
+   post_order_traversal(root_node.left_child)
+   post_order_traversal(root_node.right_child)
+   print(root_node.data)
+
+
+print("Post Order Traversal")
+post_order_traversal(new_tree)
