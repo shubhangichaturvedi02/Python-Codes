@@ -1,9 +1,9 @@
 
 
 def fibonacci (n, memo):
-    if n == 1:
+    if n == 0:
         return 0
-    if n == 2:
+    if n ==1 or n == 2:
         return 1
     
     if n not in memo:
@@ -14,6 +14,6 @@ def fibonacci (n, memo):
 
 my_dict = {}
 
-print(fibonacci(7, my_dict))
+print(fibonacci(0, my_dict))
 
     
